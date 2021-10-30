@@ -1,35 +1,31 @@
 {
     "name": "OMDbBot",
-    "logo": "https://telegra.ph//file/1fd0f08fc291a741de530.jpg",
     "description": "Simple Telegram Bot To Get Info About Movies Using OMDb",
+    "logo": "https://telegra.ph//file/1fd0f08fc291a741de530.jpg",
     "keywords": [
         "telegram",
         "pyrogram",
-        "OMDb",
+        "telegram-bot",
         "ArunSince2005"
     ],
     "repository": "https://github.com/Arun-TG/OMDb-Bot",
     "website": "t.me/ArunSince2005",
     "success_url": "https://t.me/Arun_TG",
     "env": {
-        "API_ID ": {
-            "description": "You API ID from my.telegram.org ",
-            "required": "True",
+        "API_HASH": {
+            "description": "You API HASH from my.telegram.org",
             "value": ""
         },
-        "API_HASH ": {
-            "description": "You API HASH from my.telegram.org ",
-            "required": "True",
+        "API_ID": {
+            "description": "You API ID from my.telegram.org",
             "value": ""
         },
-        "BOT_TOKEN ": {
-            "description": "Your Telegram Bot Token from @BotFather ",
-            "required": "True",
+        "BOT_TOKEN": {
+            "description": "Your Telegram Bot Token from @BotFather",
             "value": ""
         },
-        "API_KEY ": {
+        "API_KEY": {
             "description": "http//www.omdbapi.com/apikey.aspx",
-            "required": "True",
             "value": ""
         }
     },
@@ -37,11 +33,5 @@
         {
             "url": "heroku/python"
         }
-    ],
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "free"
-        }
-    }
+    ]
 }
