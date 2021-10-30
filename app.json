@@ -5,9 +5,12 @@
     "keywords": [
         "telegram",
         "pyrogram",
-        "OMDb"
+        "OMDb",
+        "ArunSince2005"
     ],
     "repository": "https://github.com/Arun-TG/OMDb-Bot",
+    "website": "t.me/ArunSince2005",
+    "success_url": "https://t.me/Arun_TG",
     "env": {
         "API_ID ": {
             "description": "You API ID from my.telegram.org ",
