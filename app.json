@@ -8,7 +8,7 @@
         "telegram-bot",
         "ArunSince2005"
     ],
-    "repository": "https://github.com/Arun-TG/OMDb-Bot",
+    "repository": "https://github.com/sarfarazstark/omdb-bot",
     "website": "t.me/ArunSince2005",
     "success_url": "https://t.me/Arun_TG",
     "env": {
