@@ -2,7 +2,7 @@
 Simple Telegram Bot To Get Info About Movies Using OMDb.
 
 ## Deploy on Heroku
- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+ [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sarfarazstark/omdb-bot)
 
 ## Deploy in your VPS
 
